@@ -328,13 +328,31 @@ if __name__ == "__main__":
     # Security report
     print("\n" + interpret_scan_results(results))
     
-    # Auto-save results
+    # 🚨 SAVE
+    print("\n💾 Saving detailed results...")
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"llm-shield_{MODEL_NAME}_{timestamp}.json"
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
+    filename = f"llm-shield_{MODEL_NAME.replace(':', '_')}_{timestamp}.json"
     
-    print(f"\n💾 Results saved: {filename}")
+    complete_results = {
+        "scan_info": {
+            "model": MODEL_NAME,
+            "timestamp": timestamp,
+            "version": __version__,
+            "platform": platform.system(),
+            "leaks_count": results.get("leaks_count", 0)
+        },
+        "candidate_triggers": results.get("candidate_triggers", []),
+        "suspect_triggers": results.get("suspect_triggers", []),
+        "all_scores": results.get("all_scores", []),
+        "top_5_leaks": results.get("leaks", [])[:5]  # Ajoute quelques exemples
+    }
+    
+    try:
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(complete_results, f, indent=2, ensure_ascii=False)
+        print(f"✅ Results saved: {filename}")
+    except Exception as e:
+        print(f"⚠️ Save error: {e}")
+    
     print("\n✅ LLM-SHIELD scan completed!")
-
-
+    
