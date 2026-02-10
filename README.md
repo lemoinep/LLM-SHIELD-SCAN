@@ -1,6 +1,5 @@
 
 # LLM-SHIELD-SCAN 🛡️
-![Banner](https://via.placeholder.com/800x200/1e3a8a/ffffff?text=LLM-SHIELD)
 
 **Microsoft-inspired Backdoor Detector for Local Ollama LLMs**
 
