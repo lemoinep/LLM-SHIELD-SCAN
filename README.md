@@ -3,9 +3,9 @@
 
 **Microsoft-inspired Backdoor Detector for Local Ollama LLMs**
 
-[![Version](https://img.shields.io/badge/version-1.0-green.svg)](https://github.com/yourusername/llm-shield)
+[![Version](https://img.shields.io/badge/version-1.0-green.svg)](https://github.com/lemoinep/LLM-SHIELD-SCAN)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
 
 ---
 
@@ -86,7 +86,7 @@ python LLM_SHIELD_SCAN.py
 ## 📝 **Author**
 
 **Dr. Patrick Lemoine**  
-*Engineer Expert in Scientific Computing & AI Researcher*  
+*Engineer Expert in Scientific Computing*  
 [LinkedIn](https://www.linkedin.com/in/patrick-lemoine-7ba11b72/)
 
 ---
