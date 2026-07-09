@@ -344,7 +344,7 @@ if __name__ == "__main__":
         "candidate_triggers": results.get("candidate_triggers", []),
         "suspect_triggers": results.get("suspect_triggers", []),
         "all_scores": results.get("all_scores", []),
-        "top_5_leaks": results.get("leaks", [])[:5]  # Ajoute quelques exemples
+        "top_5_leaks": results.get("leaks", [])[:5]  
     }
     
     try:

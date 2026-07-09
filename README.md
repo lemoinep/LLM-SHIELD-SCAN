@@ -3,10 +3,14 @@
 
 **Microsoft-inspired Backdoor Detector for Local Ollama LLMs**
 
-[![Version](https://img.shields.io/badge/version-1.0-green.svg)](https://github.com/lemoinep/LLM-SHIELD-SCAN)
+[![Version](https://img.shields.io/badge/version-1.1-green.svg)](https://github.com/lemoinep/LLM-SHIELD-SCAN)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
-
+[![LLM](https://img.shields.io/badge/LLM-security-purple.svg)]()
+[![Security](https://img.shields.io/badge/Security-AI%20protection-critical.svg)]()
+[![Prompt](https://img.shields.io/badge/Prompt-injection%20detection-yellow.svg)]()
+[![Scanning](https://img.shields.io/badge/Scanning-LLM%20pipeline-blue.svg)]()
+[![Defense](https://img.shields.io/badge/Defense-adversarial-red.svg)]()
 ---
 
 ## 🚨 **What is LLM-SHIELD-SCAN ?**
