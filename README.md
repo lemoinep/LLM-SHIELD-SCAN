@@ -11,7 +11,16 @@
 [![Prompt](https://img.shields.io/badge/Prompt-injection%20detection-yellow.svg)]()
 [![Scanning](https://img.shields.io/badge/Scanning-LLM%20pipeline-blue.svg)]()
 [![Defense](https://img.shields.io/badge/Defense-adversarial-red.svg)]()
+
+
 ---
+
+<p align="center">
+<img src="Images/P0001.jpg" width="100%" />
+</p>
+
+---
+
 
 ## 🚨 **What is LLM-SHIELD-SCAN ?**
 
@@ -89,8 +98,16 @@ python LLM_SHIELD_SCAN.py
 
 ## For more information
 
+<p align="center">
+<img src="Images/P0003.jpg" width="100%" />
+</p>
+
+<p align="center">
 <img src="Images/P0002.jpg" width="100%" />
+</p>
 ---
+
+<p align="center">
 <img src="Images/Z20260709_000001.jpg" width="100%" />
 <img src="Images/Z20260709_000002.jpg" width="100%" />
 <img src="Images/Z20260709_000003.jpg" width="100%" />
@@ -106,7 +123,7 @@ python LLM_SHIELD_SCAN.py
 <img src="Images/Z20260709_000013.jpg" width="100%" />
 <img src="Images/Z20260709_000014.jpg" width="100%" />
 <img src="Images/Z20260709_000015.jpg" width="100%" />
-
+</p>
 
 ---
 
